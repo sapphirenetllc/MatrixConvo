@@ -69,7 +69,7 @@ const testimonials = [
 const Treatments = () => (
   <Layout>
     <SEO
-      title="Wellness Topics We Talk About \u2014 MetrixConvo"
+      title="Wellness Topics We Talk About \u2014 MatrixConvo"
       description="Browse the wellness topics our specialists cover on a free phone call. Honest, plain-English chats designed to help you understand your own health better."
       path="/treatments"
     />

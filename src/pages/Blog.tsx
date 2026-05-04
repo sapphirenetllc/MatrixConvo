@@ -49,7 +49,7 @@ const Blog = () => {
   return (
     <Layout>
       <SEO
-        title="Wellness Blog \u2014 Honest Reads From MetrixConvo"
+        title="Wellness Blog — Honest Reads From MatrixConvo"
         description="Easy-to-read articles on wellness, sleep, stress, lifestyle and more. Written for real people, not search engines."
         path="/blog"
       />
@@ -63,7 +63,7 @@ const Blog = () => {
               <BookOpen size={16} /> Reads worth your time
             </motion.div>
             <motion.h1 variants={fadeUp} custom={1} className="text-4xl md:text-5xl font-heading font-extrabold text-foreground">
-              The MetrixConvo{" "}
+              The MatrixConvo{" "}
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">blog</span>
             </motion.h1>
             <motion.p variants={fadeUp} custom={2} className="text-lg text-muted-foreground max-w-2xl mx-auto">

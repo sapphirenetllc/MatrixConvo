@@ -21,7 +21,7 @@ const TreatmentDetail = () => {
   return (
     <Layout>
       <SEO
-        title={`${treatment.title} \u2014 Wellness Topic | MetrixConvo`}
+        title={`${treatment.title} \u2014 Wellness Topic | MatrixConvo`}
         description={treatment.description}
         path={`/treatments/${treatment.slug}`}
       />

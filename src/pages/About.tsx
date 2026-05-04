@@ -20,8 +20,8 @@ const fadeUp = {
 const About = () => (
   <Layout>
     <SEO
-      title="About MetrixConvo \u2014 Real People, Honest Wellness Conversations"
-      description="Meet the team behind MetrixConvo. We're a small group of wellness specialists who help people make sense of their health through free, friendly phone calls."
+      title="About MatrixConvo — Real People, Honest Wellness Conversations"
+      description="Meet the team behind MatrixConvo. We're a small group of wellness specialists who help people make sense of their health through free, friendly phone calls."
       path="/about"
     />
     <section className="relative py-24 bg-gradient-to-b from-primary/8 via-background to-secondary/5 overflow-hidden">
@@ -34,7 +34,7 @@ const About = () => (
           <motion.div variants={fadeUp} custom={0} className="flex justify-center">
             <div className="relative inline-flex items-center justify-center p-6 rounded-3xl bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 shadow-xl">
               <div className="absolute inset-0 rounded-3xl bg-secondary/10 blur-2xl pulse-glow" />
-              <img src="/logo.png" alt="MetrixConvo — health education platform" className="relative h-16 md:h-20 w-auto" />
+              <img src="/logo.png" alt="MatrixConvo — health education platform" className="relative h-16 md:h-20 w-auto" />
             </div>
           </motion.div>
           <motion.div variants={fadeUp} custom={1} className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
@@ -46,7 +46,7 @@ const About = () => (
             one chat at a time
           </motion.h1>
           <motion.p variants={fadeUp} custom={3} className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            MetrixConvo is a wellness information service. Hop on a free call with one of our specialists and we'll talk through what's on your mind in plain, everyday language.
+            MatrixConvo is a wellness information service. Hop on a free call with one of our specialists and we'll talk through what's on your mind in plain, everyday language.
           </motion.p>
           <motion.div variants={fadeUp} custom={4} className="flex flex-wrap justify-center gap-3 pt-2">
             <CallButton label="Talk to a Specialist" fullLabel={false} />
@@ -99,7 +99,7 @@ const About = () => (
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={0} className="prose prose-lg max-w-none text-muted-foreground">
           <h2 className="font-heading text-foreground">Who we are</h2>
           <p>
-            MetrixConvo is a wellness information service. We're not a pharmacy, we don't diagnose anything, and we don't write prescriptions. What we do is help you wrap your head around what's going on with your health, so you feel a lot more confident the next time you sit down with a licensed provider.
+            MatrixConvo is a wellness information service. We're not a pharmacy, we don't diagnose anything, and we don't write prescriptions. What we do is help you wrap your head around what's going on with your health, so you feel a lot more confident the next time you sit down with a licensed provider.
           </p>
           <p>
             Whether you're trying to make sense of a recent diagnosis, something you read online that's been nagging at you, or you just want to understand a health topic in plain English, our specialists are here for a calm, friendly phone chat. Always alongside your own doctor, never instead of them.
@@ -118,7 +118,7 @@ const About = () => (
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={0} className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-heading font-extrabold mb-3">An education platform — not a pharmacy</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Clarity matters. Here's exactly what MetrixConvo is, and what it isn't.
+            Clarity matters. Here's exactly what MatrixConvo is, and what it isn't.
           </p>
         </motion.div>
         <div className="grid md:grid-cols-2 gap-6">
@@ -302,7 +302,7 @@ const About = () => (
             <div className="absolute -top-16 -right-16 w-64 h-64 bg-secondary/30 rounded-full blur-3xl" />
             <div className="absolute -bottom-16 -left-16 w-64 h-64 bg-accent/30 rounded-full blur-3xl" />
             <CardContent className="relative p-10 md:p-14 text-center space-y-6">
-              <img src="/logo.png" alt="MetrixConvo" className="h-12 w-auto mx-auto opacity-95 brightness-0 invert" />
+              <img src="/logo.png" alt="MatrixConvo" className="h-12 w-auto mx-auto opacity-95 brightness-0 invert" />
               <h2 className="text-3xl md:text-4xl font-heading font-extrabold">Have a question? Let's talk it through.</h2>
               <p className="text-primary-foreground/90 max-w-2xl mx-auto">
                 A free, no-obligation educational phone conversation about diseases, treatments, and the questions on your mind.

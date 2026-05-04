@@ -19,7 +19,7 @@ const BlogPost = () => {
   return (
     <Layout>
       <SEO
-        title={`${post.title} | MetrixConvo`}
+        title={`${post.title} | MatrixConvo`}
         description={post.excerpt || post.title}
         path={`/blog/${post.slug}`}
         jsonLd={{
@@ -28,7 +28,7 @@ const BlogPost = () => {
           headline: post.title,
           description: post.excerpt,
           datePublished: post.date,
-          author: { "@type": "Organization", name: "MetrixConvo" },
+          author: { "@type": "Organization", name: "MatrixConvo" },
         }}
       />
       <article className="py-20 bg-gradient-to-b from-primary/5 to-background">

@@ -9,7 +9,7 @@ const Footer = () => (
         {/* Brand */}
         <div className="space-y-4">
           <Link to="/" className="flex items-center gap-2">
-            <img src="/logo.png" alt="MetrixConvo" className="h-10 w-auto max-w-[200px] object-contain brightness-0 invert" />
+            <img src="/logo.png" alt="MatrixConvo" className="h-10 w-auto max-w-[200px] object-contain brightness-0 invert" />
           </Link>
           <p className="text-sm text-primary-foreground/60 leading-relaxed">
             Honest wellness conversations with real specialists. Friendly, private, and always on your terms.
@@ -66,8 +66,8 @@ const Footer = () => (
           <ul className="space-y-3 text-sm text-primary-foreground/60">
             <li className="flex items-center gap-2">
               <Mail size={16} className="text-secondary/80" />
-              <a href="mailto:support@metrixconvo.com" className="hover:text-primary-foreground transition-colors">
-                support@metrixconvo.com
+              <a href="mailto:support@matrixconvo.com" className="hover:text-primary-foreground transition-colors">
+                support@matrixconvo.com
               </a>
             </li>
             <li className="flex items-center gap-2">
@@ -87,9 +87,9 @@ const Footer = () => (
       </div>
 
       <div className="mt-12 pt-6 border-t border-primary-foreground/10 text-center text-xs text-primary-foreground/40">
-        <p>\u00a9 {new Date().getFullYear()} MetrixConvo. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} MatrixConvo. All rights reserved.</p>
         <p className="mt-2 max-w-2xl mx-auto">
-          MetrixConvo doesn't diagnose or prescribe. Everything we share is for general wellness information only \u2014 always check in with a licensed healthcare provider before making changes.
+          MatrixConvo doesn't diagnose or prescribe. Everything we share is for general wellness information only — always check in with a licensed healthcare provider before making changes.
         </p>
       </div>
     </div>

@@ -11,7 +11,7 @@ const NotFound = () => {
 
   return (
     <main className="flex min-h-screen items-center justify-center bg-muted px-6">
-      <SEO title="Page Not Found | MetrixConvo" description="That page doesn't seem to exist anymore. Head back home and we'll get you sorted." path="/404" />
+      <SEO title="Page Not Found | MatrixConvo" description="That page doesn't seem to exist anymore. Head back home and we'll get you sorted." path="/404" />
       <div className="text-center max-w-md">
         <p className="text-sm font-mono tracking-widest text-secondary mb-2">ERROR 404</p>
         <h1 className="mb-3 text-4xl font-heading font-extrabold text-foreground">We can't find that page</h1>

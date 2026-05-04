@@ -53,7 +53,7 @@ const features = [
 
 const faqs = [
   {
-    q: "What exactly is MetrixConvo?",
+    q: "What exactly is MatrixConvo?",
     a: "We're a wellness and health information service. You hop on a free, private call with one of our specialists and we help you understand your options in plain language. We're not a pharmacy, and we don't prescribe or sell medication.",
   },
   {
@@ -110,15 +110,15 @@ const testimonials = [
 const Index = () => (
   <Layout>
     <SEO
-      title="MetrixConvo \u2014 Free Wellness Conversations With Real Specialists"
+      title="MatrixConvo — Free Wellness Conversations With Real Specialists"
       description="Talk to a friendly wellness specialist on a free, private call. Honest, educational guidance to help you make confident decisions about your health."
       path="/"
       jsonLd={{
         "@context": "https://schema.org",
         "@type": "Organization",
-        name: "MetrixConvo",
-        url: "https://metrixconvo.com",
-        logo: "https://metrixconvo.com/logo.png",
+        name: "MatrixConvo",
+        url: "https://matrixconvo.com",
+        logo: "https://matrixconvo.com/logo.png",
         description: "Wellness and health information platform offering free, private educational conversations with specialists.",
       }}
     />

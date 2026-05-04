@@ -37,7 +37,7 @@ const steps = [
 const HowItWorks = () => (
   <Layout>
     <SEO
-      title="How It Works \u2014 A Free Wellness Call With MetrixConvo"
+      title="How It Works — A Free Wellness Call With MatrixConvo"
       description="Here's exactly what happens when you call us. No forms, no waiting rooms \u2014 just a friendly chat with a wellness specialist who actually listens."
       path="/how-it-works"
     />
@@ -51,7 +51,7 @@ const HowItWorks = () => (
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-accent/30 blur-2xl pulse-glow rounded-full" />
               <div className="relative bg-gradient-to-br from-background to-muted/40 border border-border/60 rounded-2xl px-6 py-4 shadow-lg">
-                <img src="/logo.png" alt="MetrixConvo" className="h-10 md:h-12 w-auto" />
+                <img src="/logo.png" alt="MatrixConvo" className="h-10 md:h-12 w-auto" />
               </div>
             </div>
           </motion.div>
@@ -269,7 +269,7 @@ const HowItWorks = () => (
           <CardContent className="relative p-10 md:p-14 text-center">
             <div className="flex justify-center mb-6">
               <div className="bg-background/95 rounded-2xl px-5 py-3 shadow-xl">
-                <img src="/logo.png" alt="MetrixConvo" className="h-9 w-auto" />
+                <img src="/logo.png" alt="MatrixConvo" className="h-9 w-auto" />
               </div>
             </div>
             <h2 className="text-3xl md:text-4xl font-heading font-extrabold">Ready when you are.</h2>

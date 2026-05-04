@@ -104,8 +104,8 @@ const testimonials = [
 const Services = () => (
   <Layout>
     <SEO
-      title="Our Services \u2014 Free Wellness Conversations | MetrixConvo"
-      description="See how a free MetrixConvo wellness call works. Friendly specialists, plain English, zero pressure. Built to help you understand your health better."
+      title="Our Services — Free Wellness Conversations | MatrixConvo"
+      description="See how a free MatrixConvo wellness call works. Friendly specialists, plain English, zero pressure. Built to help you understand your health better."
       path="/services"
     />
     {/* Hero */}

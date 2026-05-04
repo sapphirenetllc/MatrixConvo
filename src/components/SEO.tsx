@@ -8,7 +8,7 @@ type SEOProps = {
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 };
 
-const SITE_URL = "https://metrixconvo.com";
+const SITE_URL = "https://matrixconvo.com";
 const DEFAULT_IMAGE = "https://lovable.dev/opengraph-image-p98pqg.png";
 
 const upsertMeta = (selector: string, attr: "name" | "property", key: string, value: string) => {
